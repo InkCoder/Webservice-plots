@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="resources/styles/dndimg.css">
+	<script src="http://www.google.com/jsapi?key=ABQIAAAADYbHHQrNWPElNtE4hn2g1hQhn5tTlmnhbGVHENfXgw8ik0kvARSWpfuAdtdt1KqinQpUokxB7SpcsQ"
+			type="text/javascript"></script>
+	<script type="text/javascript">
+		google.load("jquery", "1");
+		google.load("jqueryui", "1");
+	</script>
+	<script type="text/javascript" src="resources/scripts/dndimg.js"></script>
+	
+</head>
+<body>
+<div id="drop_container">
+<div id="drop_visible"><span id="dropl_visible">Drag & Drop the Visible image here</span>
+<img id="img_visible" />
+</div>
+<div id="drop_ir"><span id="dropl_ir">Drag & Drop the IR image here</span>
+<img id="img_ir" />
+</div>
+</div>
+<div id="clear">
+<br/>
+<hr style="width:82% ;height:3px; background-color: #FFF "/>
+<br/>
+</div>
+<div id="result_tab">
+
+<div id="previous">
+<a href="#" id="pscroll">
+<img src="resources/images/media_previous.png"/>
+</a>
+</div>
+<div id="result">
+<img id="result_img" src="" alt="[ processed images]" title="none"/>
+</div>
+<div id="next">
+<a href="#" id="nscroll">
+<img src="resources/images/media_next.png"/>
+</a>
+</div>
+</div>
+</body>
+</html>
